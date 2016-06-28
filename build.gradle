@@ -25,7 +25,7 @@ jar {
 
 
 task buildDocker(type: Docker, dependsOn: build) {
-  push = true
+  push = false
   applicationName = jar.baseName
   dockerfile = file('src/main/docker/docker-springboot.dockerfile')
   doFirst {

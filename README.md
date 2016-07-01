@@ -5,14 +5,14 @@ It runs the spring boot application in one container and H2 DB in another contai
 
 
 Steps
-1. Install docker and gradle
-2. Download the code
-3. Update the application.properties 
-4. gradle buildDocker
-5. docker-compose up
+1. Install docker and gradle </br>
+2. Download the code</br>
+3. Update the application.properties </br>
+4. gradle buildDocker</br>
+5. docker-compose up</br>
 
 application can be accessed on http://<your_vm_IP>:8081/
-
-It will run the spring boot application. Then try to follow instructions here https://spring.io/guides/gs/accessing-data-rest/ to add records in DB and access the added records.
+</br>
+</br>It will run the spring boot application. Then try to follow instructions here https://spring.io/guides/gs/accessing-data-rest/ to add records in DB and access the added records.
 
 
